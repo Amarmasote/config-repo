@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:mysql://prod-db:3306/service_two
+    username: produser
+    password: ${SERVICE_TWO_DB_PASSWORD}
+custom:
+  message: "Service Two - PROD configuration"

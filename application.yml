@@ -1,0 +1,6 @@
+# Common properties shared across all services & environments
+common:
+  message: "This property is available to every service in every environment"
+logging:
+  level:
+    root: INFO

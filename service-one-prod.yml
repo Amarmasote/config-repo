@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://prod-db:3306/service_one
+    username: produser
+    password: ${SERVICE_ONE_DB_PASSWORD}   # use environment variable or encryption
+custom:
+  message: "Service One - PROD configuration"
