@@ -11,5 +11,6 @@ logging:
     root: INFO
 
 test:
-  property: aaa
+  property: bbb
+
 
